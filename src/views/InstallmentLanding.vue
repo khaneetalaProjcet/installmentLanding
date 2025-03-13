@@ -32,7 +32,7 @@
                                 item-value="value" chips multiple></v-select>
                         </v-col>
                         <v-col cols="12">
-                            <v-btn type="submit" size="large" block color="#af8b4a" :disabled="!isValid">ثبت</v-btn>
+                            <v-btn type="submit" size="large" block color="#af8b4a" :disabled="!isValid" :loading="ConfirmLoading">ثبت</v-btn>
                         </v-col>
                     </v-row>
                 </v-container>
@@ -64,7 +64,6 @@
       close-label="Close Alert"
       color="error"
       title="خطا"
-      variant="tonal"
       class="error"
       closable
     >
@@ -156,8 +155,9 @@ const submitForm = async () => {
     console.log("Success:", response.data);
   } catch (error) {
     errorMsg.value = error.response.data.error || 'خطایی رخ داده است!';
+    errorAlert.value = true;
     setTimeout(() => {
-       errorAlert.value = true;
+       errorAlert.value = false;
     }, 5000)
   } finally {
     ConfirmLoading.value = false;
@@ -185,8 +185,9 @@ const closeForm = () => {
 
 .error{
     position: absolute;
-    bottom: 0;
-    right: 0;
+    top: 20px;
+    right: 35%;
+    font-size: 12px;
 }
 
 
