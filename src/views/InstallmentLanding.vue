@@ -180,6 +180,9 @@ const closeForm = () => {
     min-height: 100vh;
     padding: 1rem;
     background-color: rgb(255 251 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
