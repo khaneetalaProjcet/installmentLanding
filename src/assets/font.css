@@ -1,0 +1,92 @@
+/* Modam */
+@font-face {
+    font-family: Modam;
+    font-style: normal;
+    font-weight: 300;
+    src: local("Modam"),
+        url('/fonts/ModamFaNum-Light.ttf') format('ttf'),
+        url('/fonts/ModamFaNumWeb-Light.woff') format('woff'),
+        url('/fonts/ModamFaNumWeb-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Modam;
+    font-style: normal;
+    font-weight: normal;
+    src: local("Modam"),
+        url('/fonts/ModamFaNum-Regular.ttf') format('ttf'),
+        url('/fonts/ModamFaNumWeb-Regular.woff') format('woff'),
+        url('/fonts/ModamFaNumWeb-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Modam;
+    font-style: normal;
+    font-weight: bold;
+    src: local("Modam"),
+        url('/fonts/ModamFaNum-Bold.ttf') format('ttf'),
+        url('/fonts/ModamFaNumWeb-Bold.woff') format('woff'),
+        url('/fonts/ModamFaNumWeb-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Modam;
+    font-style: normal;
+    font-weight: 900;
+    src: local("Modam"),
+        url('/fonts/ModamFaNum-Black.ttf') format('ttf'),
+        url('/fonts/ModamFaNumWeb-Black.woff') format('woff'),
+        url('/fonts/ModamFaNumWeb-Black.woff2') format('woff2');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @font-face {
+    font-family: Modam;
+    font-style: normal;
+    font-weight: normal;
+    src: local("YekanBakhFaNum"), url('/fonts/woff/YekanBakhFaNum-Regular.woff') format('woff'),
+        url('/fonts/woff2/YekanBakhFaNum-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Modam;
+    font-style: normal;
+    font-weight: 600;
+    src: local("YekanBakhFaNum"), url('/fonts/woff/YekanBakhFaNum-SemiBold.woff') format('woff'),
+        url('/fonts/woff2/YekanBakhFaNum-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Modam;
+    font-style: normal;
+    font-weight: bold;
+    src: local("YekanBakhFaNum"), url('/fonts/woff/YekanBakhFaNum-Bold.woff') format('woff'),
+        url('/fonts/woff2/YekanBakhFaNum-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Modam;
+    font-style: normal;
+    font-weight: 800;
+    src: local("YekanBakhFaNum"), url('/fonts/woff/YekanBakhFaNum-ExtraBold.woff') format('woff'),
+        url('/fonts/woff2/YekanBakhFaNum-ExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Modam;
+    font-style: normal;
+    font-weight: 950;
+    src: local("YekanBakhFaNum"), url('/fonts/woff/YekanBakhFaNum-ExtraBlack.woff') format('woff'),
+        url('/fonts/woff2/YekanBakhFaNum-ExtraBlack.woff2') format('woff2');
+} */
